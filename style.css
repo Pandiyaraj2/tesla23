@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    overflow-x:hidden ;
+}
+#nav{
+ 
+   display:flex;
+   box-shadow: 1px 8px 96px 10px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.ul{
+    top: 20px;
+margin:0 20px;
+    gap: 50px;
+    list-style: none;
+    left: 30%;
+   
+}
+    
+
+.ul{
+ 
+    display: flex;
+    top: 18;
+    position: absolute;
+    right: 100px;
+    text-decoration: none;
+     top: 60px;
+    
+     
+}
+
+.ul li a{
+    text-decoration: none;
+    color:black;
+    
+     
+}
+a:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 1px ;
+    border: 2px solid #030303d8;
+    color: rgb(3, 0, 10);
+    width: 20px;
+}
+.log{
+    position: relative;
+    display: flex;
+    left: 55px;
+
+    
+    
+    
+    
+}
+.page1{
+    background-image:url('tesla imge/ts1im1.jpg');
+    height:620px;
+    background-size: cover;
+    background-position:bottom;
+    
+
+}
+.nav{
+    background-color: gray;
+}
+
+.p1t1{
+    position: relative;
+    left: 600px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+.p1t2{
+    position: relative;
+    left: 550px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+.p1t3{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    color: aliceblue;
+    text-size-adjust: 80px;
+}
+
+
+.b1{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    background-color:dodgerblue;
+    border: radius 60px; 
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgbe (0,0,0,0,0.1);
+    transition: duration 0.3s; 
+ 
+}
+
+
+.b2{
+    position: relative;
+    left: 550px;
+    top: 300px;
+background-color:dodgerblue;
+    border: radius 60px; 
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgbe (0,0,0,0,0.1);
+    transition: duration 0.3s; 
+ 
+}
+
+.page2{
+    background-image:url('tesla imge/ts1im3.jpg');
+    height:620px;
+    background-size: cover;
+    background-position:bottom;
+    
+
+}
+
+
+.p2t1{
+    position: relative;
+    left: 550px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.p2t2{
+    position: relative;
+    left: 550px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.p2t3{
+    position: relative;
+    left: 550px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.page3{
+    background-image:url('tesla imge/ts1im4.jpg');
+    height:620px;
+    background-size: cover;
+    background-position:bottom;
+    
+}
+
+.p3t1{
+    position: relative;
+    left: 620px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p3t2{
+    position: relative;
+    left: 620px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.p3t3{
+    position: relative;
+    left: 610px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.p3b1{
+    position: relative;
+    left: 550px;
+    top: 300px;
+background-color:dodgerblue;
+    border: radius 60px; 
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgbe (0,0,0,0,0.1);
+    transition: duration 0.3s; 
+}
+
+.p3b2{
+    position: relative;
+    left: 570px;
+    top: 300px;
+background-color:dodgerblue;
+    border: radius 60px; 
+    padding: 8px;
+    font-size: 15px;
+   
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 0 10px rgbe (0,0,0,0,0.1);
+    transition: duration 0.3s; 
+}
+
+
+.page4{
+    background-image:url('tesla imge/ts1im2.jpg');
+    height:620px;
+    background-size: cover;
+    background-position:bottom;
+    
+
+}
+
+.p4t1{
+    position: relative;
+    left: 200px;
+    top: 300px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p4t2{
+    position: relative;
+    left: 450px;
+    top: 330px;
+    color: aliceblue;
+    font-size: 25px;
+
+}
+
+.p4t3{
+    position: relative;
+    left: 610px;
+    top: 350px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.p4b1{
+    position: relative;
+    left: 570px;
+    top: 400px;
+background-color:rgb(179, 207, 19);
+border: radius 60px; 
+padding: 8px;
+font-size: 20px;
+
+color: #0e0101d3;
+border-radius: 5px;
+cursor: pointer; 
+box-shadow: 0 0 10px rgbe (0,0,0,0,0.1);
+transition: duration 0.3s; 
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+  
+  
+}
+
+
+.page5{
+    background-image:url('tesla imge/ts1im5.jpg');
+    height:620px;
+    background-size: cover;
+    background-position:bottom;
+    
+
+}
+
+.p5t1{
+    position: relative;
+    left: 150px;
+    top: 530px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p5t2{
+    position: relative;
+    left: 610px;
+    top: 500px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.p5t3{
+    position: relative;
+    left: 510px;
+    top: 520px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p5t4{
+    position: relative;
+    left: 990px;
+    top: 440px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p5t5{
+    position: relative;
+    left: 900px;
+    top: 450px;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.p5t6{
+    position: relative;
+    left: 100px;
+    top: 420px;
+    color: aliceblue;
+    font-size: 30px;
+    
+
+}
+.page6{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+
+
+}
+
+.p6t1{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.p6t2{
+    position: relative;
+    left: 500px;
+    top: 60px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+
+.p6t3{
+ position: relative;
+    left: 300px;
+    top: 70px;
+    color: aliceblue;
+    font-size: 13px;
+}
+   
+.p6t4{
+    position: relative;
+    left: 500px;
+    top: 80px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.p6t5{
+    position: relative;
+       left: 300px;
+       top: 90px;
+       color: aliceblue;
+       font-size: 13px;
+   }
+
+   .p6t6{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+
+.p6t7{
+    position: relative;
+       left: 300px;
+       top: 120px;
+       color: aliceblue;
+       font-size: 13px;
+   }
+
+   .p6t8{
+    position: relative;
+    left: 500px;
+    top: 130px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+
+.p7a1{
+    position: relative;
+    top: 200px;
+    color: aliceblue;
+    font-size: 20px;
+   left: 20px;
+}
+.p7a2{
+    text-decoration: none;
+    position: relative;
+    top: 180px;
+    color: rgb(53, 184, 134);
+    font-size: 20px;
+   left: 200px;
+}
+
+#teslatext:hover{
+
+    color: green;
+}
+
+.p7a3{
+    position: relative;
+    top: 180px;
+    color: rgb(53, 123, 184);
+    font-size: 20px;
+   left: 500px;
+}
+
+
+.p7a4{
+    position: relative;
+    top: 160px;
+    color: white;
+    font-size: 20px;
+   left: 530px;
+}
+
+
+.p7a5{
+    position: relative;
+    top: 140px;
+    color: wheat;
+    font-size: 20px;
+   left: 990px;
+   
+}
+
+
+.p7a6{
+    position: relative;
+    top: 120px;
+    color: white;
+    font-size: 20px;
+   left: 900px;
+   
+}
